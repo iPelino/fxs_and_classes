@@ -1,4 +1,12 @@
 void main() {
+  // // calling a function
+  // // var message = testing();
+  // print(testing(message: "This is a function", number: 32));
+  // print(testing(message: "this is a function with a parameter"));
+  // print(testing(message: "testing"));
+  // print(testing(number: 32, message: "this is another one"));
+  // // testing2();
+  // // print(message);
   var names = {'paul': 'kalisa'};
   var names2 = <String, int>{"paul": 20, "Jane": 18};
   Map<String, dynamic> courses = {
@@ -50,3 +58,17 @@ class Student {
   //   _isRegistered = value;
   // }
 }
+
+// // defining a function
+// // positional parameters
+// // String testing([String? message, int? number]) {
+// //   return "one: $message, two: $number";
+// // }
+//
+// // named parameters
+// String testing({required String message, int? number}) {
+//   return "one: $message, two: $number";
+// }
+//
+// // arrow function syntactic sugar
+// void testing2() => print("this is an arrow function");
